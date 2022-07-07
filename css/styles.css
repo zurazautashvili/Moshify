@@ -109,42 +109,31 @@ a {
     }
 }
 
-/* cards */
+/* Lists */
 
-/* .container {
-    width: 49rem;
-    height: 58rem;
-}
-
-.header-box {
-    background: var(--color-secondary);
-    border-radius: 10px;
-    padding: 2.5rem 3.5rem;
+.list {
+    color: var(--color-headings);
+    list-style: none;
+    padding-left: 0;
 }
 
-.header-entry {
-    margin-bottom: 1.5rem;
-    color: white;
-    font-weight: bold;
-}
-.header-price {
-    font-size: 6rem;
-    color: white;
-}
-.header-month {
-    font-size: 2.4rem;
-    color: #ccf7ff;
-}
-.discount {
+.list--inline .list__item {
     display: inline-block;
-    border-radius: 30px;
-    width: 9rem;
-    height: 1rem;
-    background: #02cdf1;
-    padding: 1rem 1.5rem;
+    margin-right: 2rem;
 }
-label {
-    font-size: 1.6rem;
-    color: white;
-    font-weight: bold;
-} */
+
+.list--tick {
+    list-style-image: url(../images/tick.svg);
+    padding-left: 3rem;
+}
+
+.list--tick .list__item {
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .list--tick .list__item {
+        padding-left: 0;
+    }
+}
