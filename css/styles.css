@@ -77,3 +77,74 @@ a {
         font-size: 1.5rem;
     }
 }
+
+/* Badges */
+
+.badge {
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    white-space: nowrap;
+}
+
+.badge--primary {
+    background: var(--color-primary);
+    color: white;
+}
+.badge--secondary {
+    background: var(--color-secondary);
+    color: white;
+}
+.badge--small {
+    font-size: small;
+}
+
+@media screen and (min-width: 1024px){
+    .badge {
+        font-size: 1.5rem;
+    }
+    .badge--small {
+        font-size: 1.2rem;
+    }
+}
+
+/* cards */
+
+/* .container {
+    width: 49rem;
+    height: 58rem;
+}
+
+.header-box {
+    background: var(--color-secondary);
+    border-radius: 10px;
+    padding: 2.5rem 3.5rem;
+}
+
+.header-entry {
+    margin-bottom: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+.header-price {
+    font-size: 6rem;
+    color: white;
+}
+.header-month {
+    font-size: 2.4rem;
+    color: #ccf7ff;
+}
+.discount {
+    display: inline-block;
+    border-radius: 30px;
+    width: 9rem;
+    height: 1rem;
+    background: #02cdf1;
+    padding: 1rem 1.5rem;
+}
+label {
+    font-size: 1.6rem;
+    color: white;
+    font-weight: bold;
+} */
