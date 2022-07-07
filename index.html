@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/normalizecss.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body style="padding: 5rem">
     <a href="#" class="link-arrow">learn more</a>
     <span class="badge badge--primary">10% Off</span>
     <ul class="list list--tick">
@@ -73,6 +73,38 @@
     <div class="grid grid--1x2">
       <div style="height: 100px; background: gold"></div>
       <div style="height: 100px; background: dodgerblue"></div>
+    </div>
+    <div class="card testimonial">
+      <div class="grid grid--1x2">
+        <div class="testimonial__image">
+          <img src="images/testimonial.jpg" alt="a happy costumer" />
+          <span class="icon-container icon-container--accent">
+            <svg class="icon icon--white icon--small">
+              <use xlink:href="images/sprite.svg#quotes"></use>
+            </svg>
+          </span>
+        </div>
+        <blockquote class="quote">
+          <p class="quote__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            facilis ullam minus a distinctio doloribus. Ab at est doloremque
+            voluptatem!
+          </p>
+          <footer>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary quote__line">
+                  <use xlink:href="images/sprite.svg#line"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title quote__author">John Smith</h3>
+                <p class="quote__company">ABC Company</p>
+              </div>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
     </div>
   </body>
 </html>
