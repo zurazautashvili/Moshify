@@ -539,6 +539,7 @@ a {
 .callout {
   padding: 4rem;
   border-radius: 5px;
+  transform: translateY(5rem);
 }
 
 .callout--primary {
@@ -565,7 +566,7 @@ a {
   .callout .grid--1x2 {
     grid-template-columns: 1fr auto;
   }
-
+  .callout
   .callout__content {
     text-align: left;
   }
